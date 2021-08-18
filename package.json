@@ -1,0 +1,20 @@
+{
+  "name": "README_Generator",
+  "version": "1.0.0",
+  "description": "README generator for UNH Coding Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexParker82/README_Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexParker82/README_Generator/issues"
+  },
+  "homepage": "https://github.com/AlexParker82/README_Generator#readme"
+}
