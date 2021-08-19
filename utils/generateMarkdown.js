@@ -32,7 +32,7 @@ const generateMarkdown = (data) => {
 ![badge](${licenseURL})
 
 ## Description
-🔍 ${data.description}
+${data.description}
 
 ## Table of Contents
 - [Description](#description)
@@ -44,10 +44,10 @@ const generateMarkdown = (data) => {
 - [Questions](#questions)
 
 ## Installation
-💾 ${data.installation}
+${data.installation}
 
 ## Usage
-💻 ${data.usage}
+${data.usage}
 
 ## License
 ![badge](${licenseURL})
