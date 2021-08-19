@@ -44,7 +44,7 @@ ${data.description}
 - [Questions](#questions)
 
 ## Installation
-${data.installation}
+${data.install}
 
 ## Usage
 ${data.usage}
@@ -60,8 +60,9 @@ This application is covered by the ${data.license} license.
 ## Questions
 🤔 ${data.questions}
 
-Find me on GitHub: [${data.github}](https://github.com/${data.github})
-✉️ Email me with any questions: ${data.email}`
+#### Find me on GitHub: [${data.github}](https://github.com/${data.github})
+
+#### ✉️ Email me with any questions: ${data.email}`
     
 };
 
