@@ -1,9 +1,9 @@
-# **sdjklnasdfujhasdiujfh**
+# **STANK_Music**
       
 ![badge](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 ## Description
-sdafgsadfgsdfg
+Music search tool.
 
 ## Table of Contents
 - [Description](#description)
@@ -15,10 +15,10 @@ sdafgsadfgsdfg
 - [Questions](#questions)
 
 ## Installation
-undefined
+None
 
 ## Usage
-sdfgsdfgsdfg
+None
 
 ## License
 ![badge](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
@@ -31,5 +31,5 @@ This application is covered by the Apache 2.0 license.
 ## Questions
 🤔 undefined
 
-Find me on GitHub: [AlexParker82](https://github.com/AlexParker82)
-✉️ Email me with any questions: noyes.parker@gmai.com
+#### Find me on GitHub: [AlexParker82](https://github.com/AlexParker82)
+#### ✉️ Email me with any questions: noyes.parker@gmail.com
