@@ -41,9 +41,11 @@ const promptUser = () => {
         },
 
     ]).then((data) => {
-        let license = generateReadme.renderLicenseBadge(data.license);
-        console.log(license);
-    });
+        //let licenseURL = generateReadme.renderLicenseBadge(data.license);
+        writeFileAsync('README.md', generateReadme.generateMarkdown(data))
+    }
+    ).then(() => console.log('Successfully wrote to README.md'))
+        .catch((err) => console.error(err));
 };
 
 

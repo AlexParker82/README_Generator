@@ -1,5 +1,4 @@
 
-
 function renderLicenseBadge(license) {
     switch (license) {
         case "MIT":
@@ -26,13 +25,16 @@ function renderLicenseBadge(license) {
 
 function generateMarkdown(data) {
 
+    let licenseURL = renderLicenseBadge(data.license);
 
     return `
-    <h1 align="center">${data.title} 👋</h1>
+    #${data.title} 👋
       
-    ![badge](${license}))<br />
+    ![badge](${licenseURL}))<br />
+
     ## Description
     🔍 ${data.description}
+
     ## Table of Contents
     - [Description](#description)
     - [Installation](#installation)
@@ -41,24 +43,28 @@ function generateMarkdown(data) {
     - [Contributing](#contributing)
     - [Tests](#tests)
     - [Questions](#questions)
+
     ## Installation
     💾 ${data.installation}
+
     ## Usage
     💻 ${data.usage}
+
     ## License
     ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
     <br />
-    This application is covered by the ${answers.license} license. 
+    This application is covered by the ${data.license} license. 
+
     ## Contributing
-    👪 ${answers.contributing}
-    ## Tests
-    ✏️ ${answers.tests}
+    👪 ${data.contributing}
+
     ## Questions
-    ✋ ${answers.questions}<br />
+    ✋ ${data.questions}<br />
+
     <br />
-    :octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
+    :octocat: Find me on GitHub: [${data.username}](https://github.com/${data.username})<br />
     <br />
-    ✉️ Email me with any questions: ${answers.email}<br /><br />;`
+    ✉️ Email me with any questions: ${data.email}<br /><br />;`
 }
 
 module.exports = {
