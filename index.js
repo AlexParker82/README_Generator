@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateReadme = require('./generateMarkdown.js')
+const generateMarkdown = require('./utils/generateMarkdown.js')
 const util = require('util');
 
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -39,20 +39,28 @@ const promptUser = () => {
                 "GPL 3.0",
             ]
         },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Enter your GitHub username:',
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Enter your email:',
+        }
 
-    ]).then((data) => {
-        //let licenseURL = generateReadme.renderLicenseBadge(data.license);
-        writeFileAsync('README.md', generateReadme.generateMarkdown(data))
-    }
-    ).then(() => console.log('Successfully wrote to README.md'))
-        .catch((err) => console.error(err));
+    ])
 };
 
 
 // TODO: Create a function to initialize app
 const init = () => {
-    promptUser();
-}
+    promptUser()
+        .then((data) => writeFileAsync('./README.md', generateMarkdown.generateMarkdown(data)))
+        .then(() => console.log('Successfully wrote to README.md'))
+        .catch((err) => console.error(err));;
+};
 
 // Function call to initialize app
 init();
