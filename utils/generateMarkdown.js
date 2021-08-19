@@ -62,7 +62,7 @@ This application is covered by the ${data.license} license.
 
 #### Find me on GitHub: [${data.github}](https://github.com/${data.github})
 
-#### ✉️ Email me with any questions: ${data.email}`
+#### Email me with any questions: ${data.email}`
     
 };
 
