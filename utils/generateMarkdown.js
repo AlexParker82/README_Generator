@@ -54,21 +54,28 @@ ${data.usage}
     
 This application is covered by the ${data.license} license. 
 
-## Contributing
-👪 ${data.contributing}
+## Contributors
+👪 ${data.contributors}
+
+### How you can contribute:
+${data.contributing}
+
+## Tests
+${data.tests}
 
 ## Questions
-🤔 ${data.questions}
 
-#### Find me on GitHub: [${data.github}](https://github.com/${data.github})
+Email me with any questions: ${data.email}
 
-#### Email me with any questions: ${data.email}`
-    
+Find me on GitHub: [${data.github}](https://github.com/${data.github})`
+
 };
 
 module.exports = {
     generateMarkdown
 };
+
+    
     
 
 

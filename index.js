@@ -41,6 +41,21 @@ const promptUser = () => {
         },
         {
             type: 'input',
+            name: 'contributors',
+            message: 'List contributors here:',
+        },
+        {
+            type: 'input',
+            name: 'contributing',
+            message: 'Describe the process for contributing to the project:'
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'List test instructions here:',
+        },
+        {
+            type: 'input',
             name: 'github',
             message: 'Enter your GitHub username:',
         },
