@@ -31,9 +31,6 @@ const generateMarkdown = (data) => {
       
 ![badge](${licenseURL})
 
-## Description
-${data.description}
-
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -42,6 +39,9 @@ ${data.description}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+
+## Description
+${data.description}
 
 ## Installation
 ${data.install}
@@ -55,9 +55,9 @@ ${data.usage}
 This application is covered by the ${data.license} license. 
 
 ## Contributors
-👪 ${data.contributors}
+${data.contributors}
 
-### How you can contribute:
+### How you can contribute
 ${data.contributing}
 
 ## Tests
@@ -75,7 +75,8 @@ module.exports = {
     generateMarkdown
 };
 
-    
-    
+
+
+
 
 

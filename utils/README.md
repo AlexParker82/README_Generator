@@ -2,9 +2,6 @@
       
 ![badge](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)
 
-## Description
-App to quickly create a README.md file for your project.
-
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -14,11 +11,14 @@ App to quickly create a README.md file for your project.
 - [Tests](#tests)
 - [Questions](#questions)
 
+## Description
+A node app that generates a README.md file using user prompts
+
 ## Installation
-Download source code.
+None
 
 ## Usage
-Run the app through the terminal using the node index.js command and answer the following prompts.
+Answer the questions to generate the README
 
 ## License
 ![badge](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)
@@ -26,13 +26,13 @@ Run the app through the terminal using the node index.js command and answer the 
 This application is covered by the Mozilla license. 
 
 ## Contributors
-👪 AlexParker82
+Alex Parker
 
-### How you can contribute:
-Check GitHub repo
+### How you can contribute
+See GitHub Repo
 
 ## Tests
-None
+None at the moment
 
 ## Questions
 
